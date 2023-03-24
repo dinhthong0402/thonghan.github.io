@@ -30,7 +30,7 @@ pipeline{
 		}
 		stage('Deploy'){
 			steps{
-				sh "/home/ubuntu/workspace/run-htk-fe.sh"
+				sh "/home/ubuntu/workspace/run-yeuhan.sh"
 				// sh "sudo kubectl patch deployment ${DEPLOYMENT} -p \"{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"$(date
 			}
 		}
